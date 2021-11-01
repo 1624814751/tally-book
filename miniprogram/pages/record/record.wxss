@@ -1,0 +1,118 @@
+/* miniprogram/pages/record/record.wxss */
+pages{
+  background-color: #999;
+}
+/* 头部样式 */
+.header{
+  background-color: #26b592;
+  padding: 20rpx 0;
+  position: relative;
+}
+.header .headerBox{
+  width: 300rpx;
+  height: 80rpx;
+  border: 1px solid #fff;
+  margin: 0 auto;
+  display: flex;
+  border-radius: 30rpx;
+  overflow: hidden;
+}
+.header .headerBox .headerItem{
+  width: 50%;
+  text-align: center;
+  line-height: 80rpx;
+  color: #fff;
+}
+/* 收入支出按钮激活高亮样式 */
+.header .headerBox .active{
+  background-color: #fff;
+  color: #26b592;
+}
+/* 保存按钮的样式 */
+.header .saveBtn{
+  position: absolute;
+  top: 50%;
+  right: 30rpx;
+  margin-top: -40rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  color: #fff;
+}
+/* 收入支出按钮激活高亮样式 */
+.header .headerBox .active{
+  background-color: #fff;
+  color: #26b592;
+}
+/* 保存按钮的样式 */
+.header .saveBtn{
+  position: absolute;
+  top: 50%;
+  right: 30rpx;
+  margin-top: -40rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  color: #fff;
+}
+/* 白色内容样式 */
+.contentBox{
+  background-color: #fff;
+}
+.priceBox{
+  padding: 0 20rpx;
+}
+.priceBox input{
+  font-size: 60rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+}
+/* 轮播图样式 */
+.iconSwiper{
+  height: 400rpx;
+}
+.iconBox{
+  padding: 0 20rpx;
+}
+/* 单个图标样式 */
+.iconItem{
+  width: 25%;
+  margin-top: 20rpx;
+}
+.iconItem .iconImg{
+  width: 100rpx;
+  height: 100rpx;
+  margin: 0 auto;
+}
+.iconItem .iconImg image{
+  width: 100%;
+  height: 100%;
+}
+.iconItem .iconTitle{
+  text-align: center;
+  font-size: 24rpx;
+  color: #999;
+}
+/* 激活的图标样式 */
+.iconBox .active{
+  box-shadow: 0 0 10rpx 5rpx #e0e0e0;
+}
+.iconBox .active .iconImg{
+  transform:scale(1.2); /*缩放属性，参数：倍数<1 ：缩小>1：放大*/
+}
+.iconBox .active .iconTitle{
+  color:#000;
+  font-weight: bold;
+}
+/* 日期 备注样式 */
+.infoBox{
+  padding: 0 20rpx;
+}
+.infoBox .infoItem{
+  display: flex;
+  align-items: center;
+  margin-top: 30rpx;
+  color: #999;
+}
+.infoBox .infoItem .iconfont{
+  margin-right: 20rpx;
+  font-weight: bold;
+}

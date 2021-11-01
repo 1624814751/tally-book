@@ -1,0 +1,61 @@
+.detail {
+  padding: 0 30rpx;
+}
+
+/* 金额输入框 */
+.moneyBox {
+  padding: 20rpx 0;
+}
+
+.moneyBox input {
+  font-size: 100rpx;
+  height: 120rpx;
+}
+
+/* 信息列表样式 */
+.infoList {
+  display: flex;
+  border-top: 1px solid #ededed;
+  padding: 30rpx 0;
+}
+
+.infoList .infoTitle {
+  color: #999;
+  width: 120rpx;
+}
+
+.infoList .infoTitle .icon-jilu {
+  color: coral;
+}
+
+.infoList .infoVal {
+  width: cale(100%-120rpx);
+}
+
+/* 按钮样式 */
+.btnBox {
+  width: calc(100% - 60rpx);
+  position: fixed;
+  justify-content: space-between;
+  bottom: 20rpx;
+  display: flex;
+}
+
+.btnBox .setBtn {
+  width: 50%;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  background-color: #26b582;
+  color: #fff;
+}
+
+.btnBox .deleteBtn {
+  width: 30%;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  border: 1px solid #dfdfdf;
+  box-sizing: border-box;
+  color: #e4393c;
+}

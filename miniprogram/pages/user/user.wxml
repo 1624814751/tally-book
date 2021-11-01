@@ -1,0 +1,11 @@
+<!--miniprogram/pages/user/user.wxml-->
+<view class="user">
+  <!-- 用户信息 -->
+  <view class="userInfo">
+  <!-- 头像 -->
+    <button bindtap="getUserInfo" wx:if="{{isLogin}}">获取头像</button>
+    <image src="{{userInfo.avatarUrl}}" wx:else></image>
+    <!-- 昵称 -->
+    <view class="nickname">{{userInfo.nickname}}</view>
+  </view>
+</view>
